@@ -1,0 +1,14 @@
+{
+  "name": "kane-dijital-pwa",
+  "private": true,
+  "type": "module",
+  "description": "PWA Kanè Dijital — JavaScript pi, san etap build.",
+  "scripts": {
+    "mock": "node dev/mock-api.mjs",
+    "e2e": "node dev/e2e.mjs",
+    "e2e:setup": "npx playwright install chromium"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}
